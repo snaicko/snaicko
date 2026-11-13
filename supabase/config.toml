@@ -1,0 +1,11 @@
+project_id = "ai-radar"
+
+# L'autorizzazione è gestita nelle funzioni: segreto cron per i job, limite d'uso per la chat.
+[functions.ingest]
+verify_jwt = false
+
+[functions.notify]
+verify_jwt = false
+
+[functions.chat]
+verify_jwt = false

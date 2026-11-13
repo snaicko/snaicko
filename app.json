@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "AI Radar",
+    "slug": "ai-radar",
+    "scheme": "airadar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07080C",
+    "ios": {
+      "bundleIdentifier": "com.snaicko.airadar",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleDevelopmentRegion": "it"
+      }
+    },
+    "android": {
+      "package": "com.snaicko.airadar"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "backgroundColor": "#07080C"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#C8FF2E"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
